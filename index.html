@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>iPhone Duo — The first foldable iPhone</title>
+  <meta name="description" content="iPhone Duo opens into a 7.6-inch display and closes to a 5.4-inch iPhone. Grade 5 titanium, a 100+ component hinge, A20 Pro and two batteries. From $1,999. Available October 23." />
+  <meta name="theme-color" content="#050507" />
+  <link rel="canonical" href="https://example.com/iphone-duo/" />
+
+  <meta property="og:type" content="product" />
+  <meta property="og:title" content="iPhone Duo — The first foldable iPhone" />
+  <meta property="og:description" content="Opens to 7.6 inches. Closes to 5.4. From $1,999, available October 23." />
+  <meta property="og:image" content="./assets/images/design-hero.jpg" />
+  <meta property="og:image:alt" content="iPhone Duo closed, open and half-folded, in Star White" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="iPhone Duo — The first foldable iPhone" />
+  <meta name="twitter:description" content="Opens to 7.6 inches. Closes to 5.4. From $1,999, available October 23." />
+  <meta name="twitter:image" content="./assets/images/design-hero.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="./assets/images/screen-outer-lock.jpg" crossorigin="anonymous" />
+  <link rel="preload" as="image" href="./assets/images/screen-inner-lock.jpg" crossorigin="anonymous" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "iPhone Duo",
+    "brand": { "@type": "Brand", "name": "Apple" },
+    "description": "The first foldable iPhone, with a 7.6-inch inner display and a 5.4-inch outer display.",
+    "image": "./assets/images/design-hero.jpg",
+    "color": "Star White, Night Sky",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "1999.00",
+      "availability": "https://schema.org/PreOrder",
+      "availabilityStarts": "2026-10-23"
+    }
+  }
+  </script>
+  <script>document.documentElement.classList.replace('no-js', 'js');</script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- Loader -->
+  <div class="loader" id="loader" role="progressbar" aria-label="Loading iPhone Duo" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div class="loader__count" aria-hidden="true"><span id="loader-num">0</span></div>
+    <p class="loader__label">iPhone Duo</p>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#top" aria-label="iPhone Duo, back to top">iPhone Duo</a>
+    <nav class="nav__links" aria-label="Sections">
+      <ul>
+        <li><a href="#story" data-goto="hero" data-section="hero">Overview</a></li>
+        <li><a href="#story" data-goto="display" data-section="display">Display</a></li>
+        <li><a href="#story" data-goto="durability" data-section="durability">Design</a></li>
+        <li><a href="#story" data-goto="cameras" data-section="cameras">Cameras</a></li>
+        <li><a href="#story" data-goto="chip" data-section="chip">Performance</a></li>
+        <li><a href="#story" data-goto="colors" data-section="colors">Colors</a></li>
+        <li><a href="#specs" data-section="#specs">Specs</a></li>
+        <li><a href="#pricing" data-section="#pricing">Pricing</a></li>
+        <li><a href="#faq" data-section="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <div class="nav__right">
+      <button class="nav__motion" id="motion-toggle" type="button" hidden>Enable motion</button>
+      <a class="btn btn--primary btn--sm" data-link="buy" href="#">Buy</a>
+    </div>
+    <div class="nav__progress" aria-hidden="true"><span id="nav-progress"></span></div>
+  </header>
+
+  <!-- Chapter dots, pinned to the bottom of the screen -->
+  <nav class="chapters" id="chapters" aria-label="Chapters">
+    <ol id="nav-dots"></ol>
+  </nav>
+
+  <main id="main">
+    <!-- ================= 3D scroll story ================= -->
+    <section class="story" id="story" aria-label="iPhone Duo story">
+      <span id="top"></span>
+      <div class="stage" id="stage">
+        <canvas id="webgl" class="stage__canvas" aria-hidden="true"></canvas>
+        <div class="fallback" id="fallback" aria-hidden="true"></div>
+
+        <button class="drag-hint" id="drag-hint" type="button" aria-label="Spin iPhone Duo 360 degrees">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12a8 8 0 0 1 14.3-4.9M20 12a8 8 0 0 1-14.3 4.9" /><path d="M18.5 3.5v4h-4M5.5 20.5v-4h4" /></svg>
+          <span>Drag to rotate</span>
+        </button>
+
+        <div class="tags" aria-hidden="true">
+          <span class="tag tag--left" data-anchor="glass" data-show="explode">Nano-textured polymer cover</span>
+          <span class="tag tag--left" data-anchor="oled" data-show="explode">Folding OLED</span>
+          <span class="tag tag--left" data-anchor="plate" data-show="explode">Titanium plate</span>
+          <span class="tag tag--left" data-anchor="frame" data-show="explode">Grade 5 titanium frame</span>
+          <span class="tag tag--left" data-anchor="back" data-show="explode">Ceramic Shield back</span>
+          <span class="tag tag--left" data-anchor="hinge" data-show="explode">Hinge · 100+ parts</span>
+          <span class="tag tag--glow" data-anchor="chip" data-show="heat">A20 Pro</span>
+          <span class="tag tag--glow" data-anchor="vapor" data-show="heat">Vapor chamber</span>
+          <span class="tag tag--glow" data-anchor="batteryL" data-show="battery">Battery 1</span>
+          <span class="tag tag--glow" data-anchor="batteryR" data-show="battery">Battery 2</span>
+        </div>
+
+        <!-- 00 Hero -->
+        <article class="panel panel--hero" data-chapter="hero" aria-labelledby="h-hero">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>The first foldable iPhone</p>
+            <h1 id="h-hero" class="display display--xl">
+              <span class="line"><span data-reveal>iPhone Duo.</span></span>
+            </h1>
+            <p class="lede" data-reveal>Opens like a book. Closes like an iPhone.</p>
+            <p class="chip" data-reveal><span>From $1,999</span><span class="chip__dot" aria-hidden="true"></span><span>Available October 23</span></p>
+            <div class="actions" data-reveal>
+              <a class="btn btn--primary" data-link="buy" href="#">Buy</a>
+              <a class="btn btn--ghost" data-link="learnMore" href="#story" data-goto="unfold">Learn more</a>
+            </div>
+          </div>
+          <div class="scroll-hint" aria-hidden="true"><span>Scroll to unfold</span><i></i></div>
+        </article>
+
+        <!-- 01 Unfold -->
+        <article class="panel" data-chapter="unfold" aria-labelledby="h-unfold">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>01 · Unfold</p>
+            <h2 id="h-unfold" class="display">
+              <span class="line"><span data-reveal>The biggest iPhone</span></span>
+              <span class="line"><span data-reveal>screen. Ever.</span></span>
+            </h2>
+            <ul class="stats" data-count-at="0.4">
+              <li data-reveal>
+                <span class="stat__num"><span class="count" data-count="50" aria-hidden="true">50</span><span aria-hidden="true">%</span><span class="sr-only">50 percent</span></span>
+                <span class="stat__label">larger than iPhone 18 Pro Max when open</span>
+              </li>
+              <li data-reveal>
+                <span class="stat__num"><span class="count" data-count="7.6" data-decimals="1" aria-hidden="true">7.6</span><span aria-hidden="true">″</span><span class="sr-only">7.6 inch</span></span>
+                <span class="stat__label">inner display, about 4:3</span>
+              </li>
+              <li data-reveal>
+                <span class="stat__num"><span class="count" data-count="5.4" data-decimals="1" aria-hidden="true">5.4</span><span aria-hidden="true">″</span><span class="sr-only">5.4 inch</span></span>
+                <span class="stat__label">outer display when closed</span>
+              </li>
+              <li data-reveal>
+                <span class="stat__num"><span class="count" data-count="90" aria-hidden="true">90</span><span aria-hidden="true">%</span><span class="sr-only">90 percent</span></span>
+                <span class="stat__label">of iPhone 18 Pro’s screen area, on the outside</span>
+              </li>
+            </ul>
+            <p class="small more" data-reveal>And open, it’s the thinnest iPhone ever made.</p>
+          </div>
+        </article>
+
+        <!-- 02 Display -->
+        <article class="panel" data-chapter="display" aria-labelledby="h-display">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>02 · Display</p>
+            <h2 id="h-display" class="display">
+              <span class="line"><span data-reveal>A fold you have</span></span>
+              <span class="line"><span data-reveal>to look for.</span></span>
+            </h2>
+            <p class="lede" data-reveal>Custom adhesives let the display layers glide over each other like the pages of a book, so the centre stays flat and smooth.</p>
+            <ul class="facts" data-reveal>
+              <li><strong>Nano-texture</strong> finish that tames glare</li>
+              <li><strong>3000 nits</strong> peak outdoor brightness</li>
+              <li><strong>ProMotion</strong> up to 120Hz, plus Always-On</li>
+              <li class="more"><strong>Wide-angle OLEDs</strong> that look right from any side</li>
+              <li><strong>Under-display FaceTime camera</strong>, hidden until you need it</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 03 iOS 27 -->
+        <article class="panel" data-chapter="ios" aria-labelledby="h-ios">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>03 · iOS 27</p>
+            <h2 id="h-ios" class="display">
+              <span class="line"><span data-reveal>Two apps, side by side.</span></span>
+              <span class="line"><span data-reveal>On iPhone. Finally.</span></span>
+            </h2>
+            <ul class="facts" data-reveal>
+              <li><strong>Split View</strong> runs two apps, or two windows of one app. Save the pairs you use most.</li>
+              <li><strong>Today View</strong> widgets with room to breathe.</li>
+              <li class="more"><strong>Dock and controls</strong> move to the side, next to a <strong>vertical Dynamic Island</strong>.</li>
+              <li><strong>Flip it over</strong> and what you’re doing moves to the other display.</li>
+            </ul>
+            <p class="apps" data-reveal><span>Netflix</span><span>Zoom</span><span>Slack</span><em>made for the bigger canvas</em></p>
+          </div>
+        </article>
+
+        <!-- 04 Built to last -->
+        <article class="panel" data-chapter="durability" aria-labelledby="h-durability">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>04 · Built to last</p>
+            <h2 id="h-durability" class="display">
+              <span class="line"><span data-reveal>Engineered like a</span></span>
+              <span class="line"><span data-reveal>precision instrument.</span></span>
+            </h2>
+            <ul class="stats stats--compact" data-count-at="0.3">
+              <li data-reveal><span class="stat__num"><span class="count" data-count="100" aria-hidden="true">100</span><span aria-hidden="true">+</span><span class="sr-only">More than 100</span></span><span class="stat__label">components in the hinge, with a magnet array to close it securely</span></li>
+              <li data-reveal><span class="stat__num"><span class="count" data-count="3" aria-hidden="true">3</span><span aria-hidden="true">x</span><span class="sr-only">3 times</span></span><span class="stat__label">better scratch resistance: Ceramic Shield 2 on the outer display</span></li>
+            </ul>
+            <ul class="facts" data-reveal>
+              <li><strong>Grade 5 titanium</strong>, mirror-polished, with a 3D-printed micro-blasted hinge cover.</li>
+              <li class="more"><strong>Ceramic Shield</strong> on the back. A scratch-resistant coating and custom-polymer nano-textured cover on the inner display.</li>
+              <li><strong>IP68</strong> water and dust resistance.</li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 05 Posable -->
+        <article class="panel" data-chapter="posable" aria-labelledby="h-posable">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>05 · Posable</p>
+            <h2 id="h-posable" class="display">
+              <span class="line"><span data-reveal>Anything’s posable.</span></span>
+            </h2>
+            <ol class="poses" data-reveal>
+              <li data-range="0-0.25"><strong>Tent</strong><span>Hands-free FaceTime on the outer display.</span></li>
+              <li data-range="0.25-0.5"><strong>Laptop</strong><span>Type on one half, read on the other.</span></li>
+              <li data-range="0.5-0.75"><strong>Standing</strong><span>StandBy on either display, even when it’s not charging.</span></li>
+              <li data-range="0.75-1"><strong>Seated</strong><span>Settles at whatever angle suits the show.</span></li>
+            </ol>
+          </div>
+        </article>
+
+        <!-- 06 Cameras -->
+        <article class="panel" data-chapter="cameras" aria-labelledby="h-cameras">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>06 · Cameras</p>
+            <h2 id="h-cameras" class="display">
+              <span class="line"><span data-reveal>Two 48MP cameras.</span></span>
+              <span class="line"><span data-reveal>Two displays to frame with.</span></span>
+            </h2>
+            <ul class="facts" data-reveal>
+              <li><strong>48MP Fusion Main</strong>: 24MP by default, 2x optical-quality zoom, 4K 120 fps Dolby Vision.</li>
+              <li class="more"><strong>48MP Fusion Ultra Wide</strong> with macro.</li>
+              
+            </ul>
+            <ul class="cards">
+              <li data-step="0.28"><img class="card__img" data-media="camera.smartTake" alt="" loading="lazy" decoding="async" /><span class="badge">New</span><strong>Smart Take</strong><span>A smarter way to get the shot.</span></li>
+              <li data-step="0.38"><img class="card__img" data-media="camera.duoPreviewStill" alt="" loading="lazy" decoding="async" /><span class="badge">New</span><strong>Duo Preview</strong><span>Your subject sees the shot on the outer display.</span></li>
+              <li data-step="0.48"><img class="card__img" data-media="camera.kidCue" alt="" loading="lazy" decoding="async" /><span class="badge">New</span><strong>Kid Cue</strong><span>Made for capturing little ones.</span></li>
+              <li data-step="0.58"><img class="card__img" data-media="camera.duoFaceTime" alt="" loading="lazy" decoding="async" /><span class="badge">New</span><strong>Duo FaceTime</strong><span>FaceTime, made for two displays.</span></li>
+            </ul>
+          </div>
+        </article>
+
+        <!-- 07 A20 Pro -->
+        <article class="panel" data-chapter="chip" aria-labelledby="h-chip">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>07 · A20 Pro</p>
+            <h2 id="h-chip" class="display">
+              <span class="line"><span data-reveal>2 nanometres.</span></span>
+              <span class="line"><span data-reveal>Cool under pressure.</span></span>
+            </h2>
+            <ul class="stats stats--compact" data-count-at="0.3">
+              <li data-reveal><span class="stat__num"><span class="pre">up to </span><span class="count" data-count="20" aria-hidden="true">20</span><span aria-hidden="true">%</span><span class="sr-only">20 percent</span></span><span class="stat__label">faster CPU than A19 Pro</span></li>
+              <li data-reveal><span class="stat__num"><span class="pre">up to </span><span class="count" data-count="40" aria-hidden="true">40</span><span aria-hidden="true">%</span><span class="sr-only">40 percent</span></span><span class="stat__label">faster GPU</span></li>
+              <li data-reveal><span class="stat__num"><span class="count" data-count="50" aria-hidden="true">50</span><span aria-hidden="true">%</span><span class="sr-only">50 percent</span></span><span class="stat__label">more memory bandwidth</span></li>
+              <li data-reveal><span class="stat__num"><span class="pre">up to </span><span class="count" data-count="35" aria-hidden="true">35</span><span aria-hidden="true">%</span><span class="sr-only">35 percent</span></span><span class="stat__label">better sustained performance than iPhone 17 Pro</span></li>
+            </ul>
+            <p class="small" data-reveal>Dual 16-core Neural Engine. A custom vapor chamber spreads the heat across the whole half.</p>
+          </div>
+        </article>
+
+        <!-- 08 Battery -->
+        <article class="panel" data-chapter="battery" aria-labelledby="h-battery">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>08 · Battery</p>
+            <h2 id="h-battery" class="display">
+              <span class="line"><span data-reveal>Two batteries.</span></span>
+              <span class="line"><span data-reveal>One for each half.</span></span>
+            </h2>
+            <div class="charge" data-reveal>
+              <svg class="charge__ring" viewBox="0 0 120 120" aria-hidden="true">
+                <circle cx="60" cy="60" r="52" class="charge__track" />
+                <circle cx="60" cy="60" r="52" class="charge__fill" id="charge-fill" />
+              </svg>
+              <div class="charge__label"><span id="charge-pct" aria-hidden="true">50%</span><small>in about 20 min, wired</small></div>
+            </div>
+            <ul class="stats stats--compact" data-count-at="0.25">
+              <li data-reveal><span class="stat__num"><span class="count" data-count="31" aria-hidden="true">31</span><span aria-hidden="true"> h</span><span class="sr-only">31 hours</span></span><span class="stat__label">video playback, inner display</span></li>
+              <li data-reveal><span class="stat__num"><span class="count" data-count="44" aria-hidden="true">44</span><span aria-hidden="true"> h</span><span class="sr-only">44 hours</span></span><span class="stat__label">video playback, outer display</span></li>
+              <li data-reveal><span class="stat__num"><span class="count" data-count="24" aria-hidden="true">24</span><span aria-hidden="true"> h</span><span class="sr-only">24 hours</span></span><span class="stat__label">mixed use</span></li>
+            </ul>
+            <p class="small" data-reveal>Apple’s first dual-battery iPhone. About 50% in 30 minutes with MagSafe or Qi2.</p>
+          </div>
+        </article>
+
+        <!-- 09 Siri AI -->
+        <article class="panel" data-chapter="siri" aria-labelledby="h-siri">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>09 · Apple Intelligence</p>
+            <h2 id="h-siri" class="display">
+              <span class="line"><span data-reveal>Siri, with room</span></span>
+              <span class="line"><span data-reveal>to think.</span></span>
+            </h2>
+            <p class="lede" data-reveal>Siri AI on one side, your app on the other. It knows your personal context and what’s on screen.</p>
+            <ul class="pills" data-reveal>
+              <li>Onscreen awareness</li><li>Siri mode in Camera</li><li>Write with Siri</li><li>Visual Intelligence</li>
+              <li class="more">Spatial Reframing</li><li class="more">Extend</li><li class="more">Clean Up</li>
+            </ul>
+            <p class="small" data-reveal>Siri AI is in beta, in English first, and not initially available in the EU.</p>
+          </div>
+        </article>
+
+        <!-- 10 Colors -->
+        <article class="panel" data-chapter="colors" aria-labelledby="h-colors">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>10 · Colors</p>
+            <h2 id="h-colors" class="display">
+              <span class="line"><span data-reveal>Two refined colors.</span></span>
+            </h2>
+            <div class="swatches" role="radiogroup" aria-label="Choose a color" data-reveal id="swatches"></div>
+            <p class="small" data-reveal id="swatch-name" aria-live="polite">Star White</p>
+          </div>
+        </article>
+
+        <!-- 11 Accessories -->
+        <article class="panel" data-chapter="accessories" aria-labelledby="h-accessories">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>11 · Accessories</p>
+            <h2 id="h-accessories" class="display">
+              <span class="line"><span data-reveal>Made to fit.</span></span>
+              <span class="line"><span data-reveal>Made to stand.</span></span>
+            </h2>
+            <div class="acc" data-reveal>
+              <div class="acc__item" data-range="0-0.5" data-acc="case">
+                <img class="acc__img" data-media="accessories.case.sand" alt="iPhone Duo Case" loading="lazy" decoding="async" />
+                <div><strong>iPhone Duo Case</strong><span class="price">$79</span></div>
+                <p>A two-part design that wraps each half.</p>
+                <div class="acc__colors" role="radiogroup" aria-label="Case color"></div>
+              </div>
+              <div class="acc__item" data-range="0.5-1" data-acc="folio">
+                <img class="acc__img" data-media="accessories.folio.navy" alt="Folio with Kickstand" loading="lazy" decoding="async" />
+                <div><strong>Folio with Kickstand</strong><span class="price">$129</span></div>
+                <p>Props iPhone Duo up, wherever you are.</p>
+                <div class="acc__colors" role="radiogroup" aria-label="Folio color"></div>
+              </div>
+            </div>
+            <p class="small" data-reveal>Both work with MagSafe and Qi2 25W charging.</p>
+          </div>
+        </article>
+
+        <!-- 12 Buy -->
+        <article class="panel" data-chapter="buy" aria-labelledby="h-buy">
+          <div class="panel__inner">
+            <p class="eyebrow" data-reveal>12 · iPhone Duo</p>
+            <h2 id="h-buy" class="display">
+              <span class="line"><span data-reveal>Unfold</span></span>
+              <span class="line"><span data-reveal>what’s next.</span></span>
+            </h2>
+            <p class="lede" data-reveal>From $1,999 or $83.29/mo. for 24 mo. Pre-order October 16. Available October 23.</p>
+            <div class="actions" data-reveal>
+              <a class="btn btn--primary" data-link="buy" href="#">Buy</a>
+              <a class="btn btn--ghost" data-link="specs" href="#specs">Tech specs</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= After the story ================= -->
+    <section class="films" aria-labelledby="h-films">
+      <div class="wrap">
+        <p class="eyebrow">In motion</p>
+        <h2 id="h-films" class="title">See it open.</h2>
+        <div class="films__grid">
+          <figure class="films__item films__item--wide">
+            <video data-media="film.unfoldLandscape" muted loop playsinline preload="none"></video>
+            <figcaption>Opens to 7.6 inches.</figcaption>
+          </figure>
+          <figure class="films__item">
+            <video data-media="film.unfoldPortrait" muted loop playsinline preload="none"></video>
+            <figcaption>Book-style hinge.</figcaption>
+          </figure>
+          <figure class="films__item">
+            <video data-media="camera.duoPreview" muted loop playsinline preload="none"></video>
+            <figcaption>Duo Preview.</figcaption>
+          </figure>
+          <figure class="films__item films__item--wide">
+            <img data-media="hero.still" loading="lazy" decoding="async" width="1272" height="814" alt="" />
+            <figcaption>Closed, open and everything in between.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="specs" id="specs" aria-labelledby="h-specs">
+      <div class="wrap">
+        <p class="eyebrow">Tech specs</p>
+        <h2 id="h-specs" class="title">iPhone Duo at a glance.</h2>
+        <dl class="specs__grid">
+          <div><dt>Displays</dt><dd>7.6″ foldable Super Retina XDR inside, nano-texture finish, wide-angle OLEDs. 5.4″ Super Retina XDR outside. Same aspect ratio. ProMotion up to 120Hz, Always-On, 3000 nits peak outdoor.</dd></div>
+          <div><dt>Chip</dt><dd>A20 Pro (2nm). 6-core CPU, 7-core GPU with Neural Accelerators, Dual 16-core Neural Engine. Custom vapor chamber.</dd></div>
+          <div><dt>Cameras</dt><dd>48MP Fusion Main with sensor-shift OIS and zero shutter lag. 48MP Fusion Ultra Wide with macro. 12MP Center Stage front camera. Under-display FaceTime camera. 4K 120 fps Dolby Vision.</dd></div>
+          <div><dt>Battery</dt><dd>Dual-battery design, one in each half. Up to 31 h video (inner), 44 h (outer), 24 h mixed use. About 50% in 20 min wired with a 60W-capable adapter (sold separately); about 30 min with MagSafe or Qi2.</dd></div>
+          <div><dt>Build</dt><dd>Grade 5 titanium, mirror-polished. 3D-printed micro-blasted hinge cover. Hinge with 100+ components. Ceramic Shield 2 (outer display), Ceramic Shield (back). IP68.</dd></div>
+          <div><dt>Connectivity</dt><dd>Wi-Fi 7, Bluetooth 6 and Thread (N1 chip). C2 modem with mmWave in the U.S. eSIM only, worldwide. Satellite features.</dd></div>
+          <div><dt>Security &amp; controls</dt><dd>Touch ID in the side button. Camera Control with Siri mode in Camera.</dd></div>
+          <div><dt>Software</dt><dd>iOS 27 (ships with iOS 27.1). Siri AI (beta) and Apple Intelligence.</dd></div>
+          <div><dt>Storage</dt><dd>256GB, 512GB, 1TB, 2TB.</dd></div>
+          <div><dt>Colors</dt><dd>Star White, Night Sky.</dd></div>
+          <div><dt>Size &amp; weight<sup><a href="#fn-dim" aria-label="Footnote">‡</a></sup></dt><dd>Open: 164.6 × 117.8 × 5.2 mm. Closed: 84.1 × 117.8 × 11.3 mm. 254 g.</dd></div>
+          <div><dt>Apple Pencil</dt><dd>Apple Pencil (USB-C) support arrives later this year. Hover is not supported.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="pricing" id="pricing" aria-labelledby="h-pricing">
+      <div class="wrap">
+        <p class="eyebrow">Pricing</p>
+        <h2 id="h-pricing" class="title">Choose your capacity.</h2>
+        <div class="pricing__grid" id="pricing-grid" role="list"></div>
+        <p class="small">U.S. pricing. Monthly price is for 24 months.</p>
+      </div>
+    </section>
+
+    <section class="availability" aria-labelledby="h-avail">
+      <div class="wrap avail">
+        <div>
+          <p class="eyebrow">Availability</p>
+          <h2 id="h-avail" class="title">Here October 23.</h2>
+        </div>
+        <ol class="timeline">
+          <li><time datetime="2026-10-16">Oct 16</time><span>Pre-orders open</span></li>
+          <li><time datetime="2026-10-23">Oct 23</time><span>On sale in 70+ countries and regions</span></li>
+          <li><time datetime="2026-10-30">Oct 30</time><span>28 more countries</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="env" aria-labelledby="h-env">
+      <div class="wrap">
+        <h2 id="h-env" class="sr-only">Environment</h2>
+        <ul class="env__grid">
+          <li><strong>35%</strong><span>recycled content</span></li>
+          <li><strong>60%</strong><span>renewable electricity in manufacturing</span></li>
+          <li><strong>100%</strong><span>fiber-based packaging</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="faq" id="faq" aria-labelledby="h-faq">
+      <div class="wrap wrap--narrow">
+        <p class="eyebrow">Questions</p>
+        <h2 id="h-faq" class="title">Good to know.</h2>
+        <div class="faq__list">
+          <details>
+            <summary>Is iPhone Duo a foldable or a flip?</summary>
+            <div><p>It’s a book-style foldable. Closed, it’s a 5.4-inch iPhone. Open, it’s a 7.6-inch display, the largest ever on an iPhone.</p></div>
+          </details>
+          <details>
+            <summary>Will I see a crease?</summary>
+            <div><p>The display is built to keep the fold flat and smooth. Custom adhesives let its layers glide like the pages of a book, and the hinge supports the centre of the display.</p></div>
+          </details>
+          <details>
+            <summary>Does it work with Apple Pencil?</summary>
+            <div><p>Apple Pencil (USB-C) support arrives later this year. Hover isn’t supported.</p></div>
+          </details>
+          <details>
+            <summary>Does it have a SIM tray?</summary>
+            <div><p>No. iPhone Duo is eSIM only, worldwide.</p></div>
+          </details>
+          <details>
+            <summary>Face ID or Touch ID?</summary>
+            <div><p>Touch ID, built into the side button.</p></div>
+          </details>
+          <details>
+            <summary>How durable is it?</summary>
+            <div><p>A Grade 5 titanium frame, a hinge of more than 100 components with a magnet array, Ceramic Shield 2 on the outer display, Ceramic Shield on the back, and IP68 water and dust resistance.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="final" aria-labelledby="h-final">
+      <div class="wrap final__inner">
+        <h2 id="h-final" class="display">iPhone Duo.</h2>
+        <p class="lede">From $1,999. Available October 23.</p>
+        <div class="actions">
+          <a class="btn btn--primary" data-link="buy" href="#">Buy</a>
+          <a class="btn btn--ghost" data-link="learnMore" href="#story" data-goto="unfold">Learn more</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="disclaimer" role="note">
+        <p><strong>This is not an official Apple website.</strong> It is an unofficial landing page concept, made for a YouTube tutorial and not affiliated with or endorsed by Apple Inc.</p>
+        <p>Made by Sergei Chyrkov · <a data-link="tutorial" href="#">Watch the tutorial on YouTube</a></p>
+      </div>
+      <ol class="footnotes">
+        <li>Battery and charging figures are “up to” values and vary with use and settings. Fast charge requires a 60W-capable USB-C adapter, sold separately.</li>
+        <li id="fn-dim">‡ Dimensions and weight are from third-party listings and must be checked against Apple’s tech specs before publishing.</li>
+        <li>Siri AI is in beta and launches in English first. It is not available in the EU initially.</li>
+        <li>Prices are U.S. prices. Monthly price shown is for 24 months.</li>
+        <li>iPhone, iPhone Duo and related names and imagery belong to Apple Inc. This page is a design concept.</li>
+      </ol>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

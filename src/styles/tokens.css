@@ -1,0 +1,42 @@
+:root {
+  /* Colour */
+  --bg: #050507;
+  --bg-2: #0d0e12;
+  --bg-light: #f5f5f3;
+  --fg: #f5f5f7;
+  --fg-dim: #c7c7cc;
+  --muted: #a1a1a8;
+  --line: rgba(255, 255, 255, 0.12);
+  --glass: rgba(20, 21, 26, 0.55);
+  --accent: #8ab4ff;
+  --accent-2: #c69bff;
+  --focus: #6ea8ff;
+  --ink: #1d1d1f;
+  --ink-muted: #5f5f66;
+
+  /* Type */
+  --font: 'Inter Tight', 'Helvetica Neue', Helvetica, Arial, system-ui, sans-serif;
+  --fs-xl: clamp(56px, 10.5vw, 160px);
+  --fs-display: clamp(38px, 4.8vw, 84px);
+  --fs-title: clamp(34px, 5vw, 72px);
+  --fs-lede: clamp(17px, 1.35vw, 21px);
+  --fs-body: 16px;
+  --fs-small: 14px;
+  --fs-eyebrow: 12px;
+  --track-tight: -0.035em;
+
+  /* Layout */
+  --gutter: clamp(16px, 4vw, 64px);
+  --nav-h: 56px;
+  --radius: 22px;
+  --ease: cubic-bezier(0.22, 0.61, 0.21, 1);
+  --ease-io: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+@media (max-width: 767px) {
+  :root {
+    --fs-display: clamp(30px, 8.6vw, 44px);
+    --fs-xl: clamp(52px, 16vw, 84px);
+    --nav-h: 52px;
+  }
+}
