@@ -2,6 +2,7 @@ import './styles/tokens.css';
 import './styles/base.css';
 import './styles/sections.css';
 
+import { inject } from '@vercel/analytics';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Lenis from 'lenis';
@@ -23,6 +24,9 @@ import { accessoryColors } from './config/copy';
 import { unfilledSlots } from './config/media';
 
 gsap.registerPlugin(ScrollTrigger);
+
+// Initialize Vercel Web Analytics
+inject();
 
 const html = document.documentElement;
 const params = new URLSearchParams(location.search);
