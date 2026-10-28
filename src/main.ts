@@ -26,7 +26,10 @@ import { unfilledSlots } from './config/media';
 gsap.registerPlugin(ScrollTrigger);
 
 // Initialize Vercel Web Analytics
-inject();
+inject({
+  mode: import.meta.env.MODE === 'production' ? 'production' : 'development',
+  debug: import.meta.env.MODE !== 'production',
+});
 
 const html = document.documentElement;
 const params = new URLSearchParams(location.search);
